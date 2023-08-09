@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.13;
+contract Error{
+    function testrequire(uint _i) public pure {
+        require(_i >= 25 && _i <= 500,"Input between 10 to 100");
+    }
+    function testrevert(uint _i) public pure {
+        if(_i <= 25 && _i>=500){
+            revert("Input greater than 10 msg by revert");
+        }
+    }
+    uint public  num;
+    function testassert() public view {
+        assert(num !=0);
+    }
+}
