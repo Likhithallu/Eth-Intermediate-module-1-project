@@ -1,22 +1,22 @@
 ## ETH AVX PROOF
 ## Require(),Revert() Assert() 
- This Solidity project, writes a smart contract that implements the require(), assert() and revert() statements.
+ The require(), assert(), and revert() statements are implemented in this Solidity project's smart contract.
 
 ## Description
-This Solidity project, writes a smart contract that implements the require(), assert() and revert() statements.
+The require(), assert(), and revert() statements are implemented in this Solidity project's smart contract.
 
-1. require is used to validate inputs and conditions before execution.
+1. Prior to execution, require is used to validate inputs and conditions.
 
-2. assert is used to check for code that should never be false. Failing assertion probably means that there is a bug.
+2. Code that should never be false is checked using assert. Assertion failure most likely indicates a problem.
 
-3. revert() is used abort execution and revert state changes
+3. Use reverse() to cancel operations and undo state changes.
 ## Getting Started
 
 ### Executing program
 
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+Use the online Solidity IDE Remix to run this programme. Visit the Remix website at https://remix.ethereum.org to get started.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
+When you are on the Remix website, click the "+" icon in the left sidebar to start a new file. Put a.sol extension to the file, such as HelloWorld.sol. The code below should be copied and pasted into the file:
 
 ```pragma solidity ^0.8.13;
 
@@ -45,9 +45,8 @@ contract Error {
 
 
 ```
+Click the "Solidity Compiler" tab in the left-hand sidebar to compile the code. Click the "Compile Error.sol" button after making sure the "Compiler" option is selected to "0.8.4" (or another compatible version).
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile Error.sol" button.
+Using the "Deploy & Run Transactions" tab in the left-hand sidebar, you can deploy the contract after the code has been compiled. Click the "Deploy" button after selecting the "Error" contract from the drop-down menu.
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Error" contract from the dropdown menu, and then click on the "Deploy" button.
-
-Once the contract is deployed, you can interact with it by calling the  function. Click on the variables and function names that are visible in the left-hand sidebar, . Finally, click on the "transact" button to execute the function and retrieve the values and message.
+You can communicate with the contract after it has been deployed by invoking the function. The variable and function names that are highlighted in the left sidebar should be clicked. To complete the function and retrieve the values and message, click the "transact" button.
